@@ -255,6 +255,11 @@
 */
 #define RADIOLIB_ERR_INVALID_IRQ                               (-29)
 
+/*!
+  \brief The supplied bandwidth/spreading factor is invalid for the set spreading factor/bandwidth on this module.
+*/
+#define RADIOLIB_ERR_INCOMPATIBLE_BANDWIDTH_SPREADING_FACTOR   (-30)
+
 // RF69-specific status codes
 
 /*!
